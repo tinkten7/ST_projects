@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Srikar Tenneti</title>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Serif+Display&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<style>
+:root{
+  --bg:#0f172a;
+  --card:rgba(255,255,255,0.06);
+  --border:rgba(255,255,255,0.12);
+  --text:#e5e7eb;
+  --muted:#94a3b8;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+  font-family:'DM Sans',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+
+/* container */
+.container{
+  max-width:920px;
+  margin:auto;
+  padding:2rem;
+}
+
+/* HERO */
+.hero{
+  margin-bottom:3rem;
+}
+
+.hero h1{
+  font-family:'DM Serif Display';
+  font-size:54px;
+}
+
+.hero p{
+  margin-top:12px;
+  color:var(--muted);
+  max-width:550px;
+  line-height:1.6;
+}
+
+/* links */
+.links{
+  margin-top:20px;
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.links a{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  color:var(--muted);
+  text-decoration:none;
+  font-size:14px;
+}
+
+.links a:hover{
+  color:#fff;
+}
+
+/* section title */
+.section-title{
+  font-size:12px;
+  letter-spacing:1px;
+  text-transform:uppercase;
+  color:var(--muted);
+  margin-bottom:1rem;
+}
+
+/* project */
+.project{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:18px;
+  margin-bottom:1.5rem;
+  padding:1.4rem;
+  transition:.3s;
+}
+
+.project:hover{
+  transform:translateY(-4px);
+  box-shadow:0 20px 50px rgba(0,0,0,0.4);
+}
+
+/* header */
+.project-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+}
+
+.project h3{
+  font-size:22px;
+  font-family:'DM Serif Display';
+}
+
+.project small{
+  color:var(--muted);
+}
+
+/* description */
+.desc{
+  margin-top:10px;
+  color:var(--muted);
+  line-height:1.6;
+  font-size:14px;
+}
+
+/* links */
+.project-links{
+  margin-top:14px;
+  display:flex;
+  gap:16px;
+}
+
+.project-links a{
+  font-size:14px;
+  display:flex;
+  align-items:center;
+  gap:6px;
+  text-decoration:none;
+  color:#fff;
+}
+
+.project-links a:hover{
+  opacity:.7;
+}
+
+.footer{
+  margin-top:3rem;
+  padding-top:2rem;
+  border-top:1px solid var(--border);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- HERO -->
+<div class="hero">
+<h1>Srikar Tenneti</h1>
+<p>
+Frontend developer with a UX background — I design and build clean, usable interfaces that actually work in real-world scenarios. Focused on clarity, usability, and modern UI.
+</p>
+
+<div class="links">
+<a href="https://tinkten7.vercel.app"><i data-lucide="globe"></i> Portfolio</a>
+<a href="https://github.com/tinkten7"><i data-lucide="github"></i> GitHub</a>
+<a href="mailto:tennetisrikar@gmail.com"><i data-lucide="mail"></i> Email</a>
+</div>
+</div>
+
+<!-- WORK -->
+<div class="section-title">Selected Work</div>
+
+<!-- 1 -->
+<div class="project">
+<div class="project-top">
+<div>
+<h3>TestGrid UX Audit</h3>
+<small>UX Case Study</small>
+</div>
+<i data-lucide="search"></i>
+</div>
+
+<p class="desc">
+UX audit identifying usability issues, friction points, and improvement areas. Focused on simplifying flows, improving clarity, and enhancing user experience.
+</p>
+
+<div class="project-links">
+<a href="https://tinkten7.vercel.app/#/case/testgrid"><i data-lucide="external-link"></i> View Case Study</a>
+</div>
+</div>
+
+<!-- 2 -->
+<div class="project">
+<div class="project-top">
+<div>
+<h3>FarmBuddy</h3>
+<small>Mobile-first Agritech Platform</small>
+</div>
+<i data-lucide="leaf"></i>
+</div>
+
+<p class="desc">
+Accessible agritech solution designed for rural users with simplified UI, clear alerts, and mobile-first interaction patterns.
+</p>
+
+<div class="project-links">
+<a href="https://tinkten7.github.io/FarmBuddy/"><i data-lucide="external-link"></i> Live Site</a>
+</div>
+</div>
+
+<!-- 3 -->
+<div class="project">
+<div class="project-top">
+<div>
+<h3>OGO (Olympic Games Oversight)</h3>
+<small>Web Platform</small>
+</div>
+<i data-lucide="activity"></i>
+</div>
+
+<p class="desc">
+A platform to track and manage Olympic data and insights. Focused on structured data display, usability, and clean dashboard interactions.
+</p>
+
+<div class="project-links">
+<a href="https://algorithmassassins.github.io/pogo/#projects"><i data-lucide="external-link"></i> Live Site</a>
+<a href="https://github.com/tinkten7/olympic_games_oversight"><i data-lucide="github"></i> GitHub</a>
+</div>
+</div>
+
+<!-- 4 -->
+<div class="project">
+<div class="project-top">
+<div>
+<h3>TnP Lendi</h3>
+<small>Placement Management System</small>
+</div>
+<i data-lucide="briefcase"></i>
+</div>
+
+<p class="desc">
+A platform that streamlines placement workflows for students and admins, improving clarity and reducing manual effort.
+</p>
+
+<div class="project-links">
+<a href="https://tnplendi.tech"><i data-lucide="external-link"></i> Live Site</a>
+</div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+
+<div class="section-title">More</div>
+
+<div class="links">
+<a href="https://github.com/tinkten7"><i data-lucide="github"></i> Explore more projects on GitHub</a>
+</div>
+
+</div>
+
+</div>
+
+<script>
+lucide.createIcons();
+
+// reveal animation
+const projects = document.querySelectorAll(".project");
+
+const observer = new IntersectionObserver(entries=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      entry.target.style.opacity = 1;
+      entry.target.style.transform = "translateY(0)";
+    }
+  });
+});
+
+projects.forEach(p=>{
+  p.style.opacity=0;
+  p.style.transform="translateY(40px)";
+  observer.observe(p);
+});
+</script>
+
+</body>
+</html>
